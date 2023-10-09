@@ -6,7 +6,7 @@ virginia:  #name of the blok
 	terraform init
 	terraform apply -var-file regions/virginia.tfvars --auto-approve
 
-ohio:
+ohio: 
 	terraform workspace new ohio || terraform workspace select ohio
 	terraform init
 	terraform apply -var-file regions/ohi.tfvars --auto-approve		

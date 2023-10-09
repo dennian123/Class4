@@ -5,7 +5,7 @@ variable region {
 }
 
 variable key_name {
-    type = string
+    type = string 
     default = ""
     description = "Enter key name"
 }
